@@ -50,6 +50,8 @@ Run **jadx** on itself:
 jadx[-gui] [options] <input file> (.dex, .apk, .jar or .class)
 options:
  -d, --output-dir           - output directory
+ -ds, --output-dir-src      - output directory for sources
+ -dr, --output-dir-res      - output directory for resources
  -j, --threads-count        - processing threads count
  -r, --no-res               - do not decode resources
  -s, --no-src               - do not decompile source code
